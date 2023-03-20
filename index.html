@@ -30,10 +30,10 @@
     <div class="container">
         <div class="row">
             <div class="col-md-3 d-flex flex-column text-bg-dark">
-                <center><h3>CLAUDIO MORAES</h3></center>
-                <center><img id="img-1" class="rounded-circle" src="imagenes/folio-1.png" alt="Imagen de Perfil"></center>
+                <center><h3><span id="nombre"></span></h3></center>
+                <center><img class="rounded-circle" src="" alt="perfil de usuario" id="foto"></center>
                 <section>
-                
+                <center>
                 <hr>
                 <ul id="lista-nil">                
                     <li>
@@ -41,21 +41,24 @@
                     </li>
                 </ul>
                 <hr>
+
                 <ul id="lista-nil">
                     <li>
                         <h4>Teléfono:</h4>
                     </li>
                     <li>
-                        (92301) 454-2252
+                        <span id="telefono"></span>
                     </li>
                     <li>
                         <h4>E-mail:</h4>
                     </li>
                     <li>
-                        claudioMoreno@gg.com
+                        <span id="correo"></span>
                     </li>
                 </ul>
+                
                 <hr>
+            
                 <ul id="lista-nil"> 
                     <li>Trabajo en Equipo</li>
                     <progress max="100" value="100"></progress>
@@ -70,7 +73,9 @@
                     <li>Puntualidad</li>
                     <progress max="100" value="80"></progress>
                 </ul>
+        
                 <hr>
+            </center>
                 </section>               
             </div>   <!-- hasta aqui la primera parte con datos del usuario     -->
 
@@ -218,6 +223,17 @@
                             </ul>
                         </div>
                     </div>
+                    <hr>
+
+                    <hr>
+                    <ul id="lista-nil">
+                        <li>
+                            <h5>Video de Ejemplo</h5>
+                        </li>
+                    </ul>
+                    <hr>
+
+                    <center><iframe width="560" height="315" src="https://www.youtube.com/embed/k--V09l5yEA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></center>
                 </div>
                 </article>
 
@@ -236,6 +252,7 @@
             </div>
         </div>
     </div>
+    <script src="app.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>
